@@ -13,8 +13,11 @@ git --version
 ## 3. Настройка Git
 После установки необходимо **«представиться»** системе контроля версий. Это нужно сделать всего один раз, и `Git` запомнит вас. Для этого нужно ввести в терминале 2 команды:
 ```
-git config --global user.name «Ваше имя английскими буквами»
+git config --global user.name "Ваше имя английскими буквами"
 ```
+Например, `git config user.name "Jhon Li"`
 ```
 git config --global user.email ваша почта@example.com
 ```
+Например, `git config user.email jhonli@gmail.com`
+   
